@@ -7,6 +7,7 @@ class TodoList extends Component {
   constructor(props) {    
     super(props);     
 
+    // dont forget to bind the state with this
     this.state = {    
       items: []  
     };
